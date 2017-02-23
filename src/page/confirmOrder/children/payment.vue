@@ -8,7 +8,7 @@
                 <footer class="order_detail" v-if="payDetail.resultData">
                     <span>详情</span>
                     <span>¥ {{(payDetail.resultData.orderInfo.orderAmount/100).toFixed(2)}}</span>
-                </footer>   
+                </footer>
             </section>
         </section>
         <div class="pay_way">选择支付方式</div>
@@ -16,7 +16,7 @@
             <section class="pay_item">
                 <div class="pay_icon_contaienr">
                     <div class="zhifubao">
-                        
+
                     </div>
                     <span>支付宝</span>
                 </div>
@@ -137,10 +137,10 @@
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../style/mixin';
-  
+
     .rating_page{
         position: fixed;
         top: 0;
@@ -227,5 +227,5 @@
         margin-top: 0.5rem;
         font-weight: bold;
     }
-    
+
 </style>

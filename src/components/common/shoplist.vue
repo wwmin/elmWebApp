@@ -29,7 +29,7 @@
 					</h5>
 					<h5 class="fee_distance">
 						<section class="fee">
-							¥{{item.float_minimum_order_amount}}起送 
+							¥{{item.float_minimum_order_amount}}起送
 							<span class="segmentation">/</span>
 							{{item.piecewise_agent_fee.tips}}
 						</section>
@@ -101,7 +101,7 @@ export default {
 		async loaderMore(){
 			//防止重复请求
 			if (this.preventRepeatReuqest) {
-				return 
+				return
 			}
 
 			this.preventRepeatReuqest = true;
@@ -161,7 +161,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
 	@import '../../style/mixin';
 	.shoplist_container{
 		background-color: #fff;

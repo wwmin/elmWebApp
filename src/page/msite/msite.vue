@@ -20,7 +20,7 @@
 	            				<img :src="imgBaseUrl + foodItem.image_url">
 	            				<figcaption>{{foodItem.title}}</figcaption>
 	            			</figure>
-	            		</router-link>	
+	            		</router-link>
 		            </div>
 		        </div>
 		        <div class="swiper-pagination"></div>
@@ -36,7 +36,7 @@
 	    	<shop-list v-if="hasGetData" :geohash="geohash"></shop-list>
     	</div>
     	<foot-guide></foot-guide>
-    </div>    
+    </div>
 </template>
 
 <script>
@@ -119,7 +119,7 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
 	.link_search{
 		left: .8rem;

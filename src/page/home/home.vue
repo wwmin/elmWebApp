@@ -13,14 +13,14 @@
                 <svg class="arrow_right">
                     <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-right"></use>
                 </svg>
-            </router-link>  
+            </router-link>
         </nav>
         <section id="hot_city_container">
             <h4 class="city_title">热门城市</h4>
             <ul class="citylistul clear">
                 <router-link  tag="li" v-for="item in hotcity" :to="'/city/' + item.id" :key="item.id">
                     {{item.name}}
-                </router-link>  
+                </router-link>
             </ul>
         </section>
         <section class="group_city_container">
@@ -33,7 +33,7 @@
                         <router-link  tag="li" v-for="item in value" :to="'/city/' + item.id" :key="item.id" class="ellipsis">
                             {{item.name}}
 
-                        </router-link>  
+                        </router-link>
                     </ul>
                 </li>
             </ul>
@@ -72,10 +72,10 @@ export default {
             this.groupcity = res;
         })
 
-        var date=new Date(); 
-        date.setTime(date.getTime()-10000); 
+        var date=new Date();
+        date.setTime(date.getTime()-10000);
         document.cookie="USERID=186655961; expires=" + date.toGMTString() ;
-        document.cookie="SID=euYTx4hkmHEa1HdhpbkvaxXLvuR7lb2WjlwQ; expires=" + date.toGMTString(); 
+        document.cookie="SID=euYTx4hkmHEa1HdhpbkvaxXLvuR7lb2WjlwQ; expires=" + date.toGMTString();
     },
 
     components:{
@@ -105,7 +105,7 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
     .head_logo{
         left: 0.4rem;
@@ -178,7 +178,7 @@ export default {
             @include sc(0.475rem, #999);
         }
     }
-    
+
     .letter_classify_li{
         margin-bottom: 0.4rem;
         background-color: #fff;

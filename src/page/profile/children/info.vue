@@ -120,7 +120,7 @@
         },
         mixins: [getImgPath],
         components: {
-            headTop, 
+            headTop,
 
         },
         props:[],
@@ -150,10 +150,10 @@
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../style/mixin.scss';
-  
+
     .rating_page{
         position: absolute;
         top: 0;
@@ -194,7 +194,7 @@
             .headportrait-div{
                 span{
                     display:inline-block;
-                    
+
                     svg{
                         @include wh(100%,100%);
                     }
@@ -214,7 +214,7 @@
             margin-top:0;
             padding:.3rem .4rem;
             .headportrait-div{
-                @include fj(left) 
+                @include fj(left)
                 p{
                     text-align:left;
                     line-height:1.39rem;

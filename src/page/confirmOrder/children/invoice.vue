@@ -41,10 +41,10 @@
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../style/mixin';
-  
+
     .rating_page{
         position: fixed;
         top: 0;
@@ -85,5 +85,5 @@
         border-radius: 0.2rem;
         margin-top: 0.5rem;
     }
-    
+
 </style>

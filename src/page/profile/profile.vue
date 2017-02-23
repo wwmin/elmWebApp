@@ -145,7 +145,7 @@ export default {
     data(){
         return{
             profiletitle: '我的',
-            getUserinfo: {},        //得到数据 
+            getUserinfo: {},        //得到数据
             username: '登陆/注册',           //用户名
             mobile: '登陆后享受更多特权',             //电话号码
             balance: '0',            //我的余额
@@ -177,7 +177,7 @@ export default {
 
     computed:{
          ...mapState([
-            'userInfo', 
+            'userInfo',
         ]),
     },
 
@@ -199,9 +199,9 @@ export default {
 
 </script>
 
-<style lang="scss" scoped>
-   @import '../../style/mixin'; 
-    
+<style lang="scss" rel="stylesheet/scss" scoped>
+   @import '../../style/mixin';
+
     .profile_page{
         p, span{
             font-family: Helvetica Neue,Tahoma,Arial;
@@ -252,13 +252,13 @@ export default {
 
                     }
                 }
-                
+
             }
             .arrow{
                 @include wh(.46667rem,.98rem);
                 display:inline-block;
                 svg{
-                   @include wh(100%,100%); 
+                   @include wh(100%,100%);
                 }
             }
         }
@@ -302,7 +302,7 @@ export default {
                         color:#ff5f3e;
                     }
                 }
-               
+
             }
             .info-data-link:nth-of-type(3){
                 border:0;
@@ -312,7 +312,7 @@ export default {
                     }
                 }
             }
-        }   
+        }
    }
    .profile-1reTe{
         margin-top:.4rem;

@@ -29,7 +29,7 @@
                 </ul>
                 <div class="deliver_fee">
                     <span>配送费</span>
-                    <span>{{orderDetail.basket.deliver_fee.price}}</span>   
+                    <span>{{orderDetail.basket.deliver_fee.price}}</span>
                 </div>
                 <div class="pay_ment">实付{{orderDetail.total_amount.toFixed(2)}}</div>
             </section>
@@ -120,10 +120,10 @@
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../style/mixin';
-  
+
     .order_detail_page{
         position: fixed;
         top: 0;
@@ -257,5 +257,5 @@
     .loading-enter, .loading-leave-active {
         opacity: 0
     }
-    
+
 </style>

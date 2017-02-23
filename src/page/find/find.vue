@@ -14,7 +14,7 @@
     export default {
       data(){
             return{
-    
+
             }
         },
         created(){
@@ -27,14 +27,14 @@
         },
         props:[],
         methods: {
-            
+
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
-  
+
     .rating_page{
         position: absolute;
         top: 0;
@@ -48,5 +48,5 @@
             font-family: Helvetica Neue,Tahoma,Arial;
         }
     }
-    
+
 </style>

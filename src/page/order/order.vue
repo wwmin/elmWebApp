@@ -37,7 +37,7 @@
         </transition>
         <transition name="router-slid">
             <router-view></router-view>
-        </transition>   
+        </transition>
     </div>
 </template>
 
@@ -55,7 +55,7 @@
             return{
                 orderList: null,
                 offset: 0,
-                preventRepeat: false, 
+                preventRepeat: false,
                 showLoading: true, //显示加载动画
             }
         },
@@ -112,10 +112,10 @@
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
-    
+
     .order_page{
         background-color: #f1f1f1;
         padding-bottom: 1.95rem;
@@ -124,7 +124,7 @@
         }
     }
     .order_list_ul{
-       
+
         padding-top: 1.95rem;
         .order_list_li{
             background-color: #fff;

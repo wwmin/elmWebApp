@@ -124,13 +124,13 @@
             //关闭提示框
             closeTip(){
                 this.showAlert = false;
-            }   
+            }
         }
     }
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
 
     .restContainer{

@@ -28,7 +28,7 @@
     export default {
     	data(){
             return{
-                
+
             }
         },
         created(){
@@ -37,7 +37,7 @@
 
         },
         mounted(){
-            
+
         },
         props: ['signinUp', 'headTitle', 'goBack'],
         computed: {
@@ -55,7 +55,7 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
 
     #head_top{

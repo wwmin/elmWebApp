@@ -107,7 +107,7 @@
             }
         },
         mounted(){
-        	
+
         },
         computed: {
             ...mapState([
@@ -126,10 +126,10 @@
         }
     }
 </script>
-	
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../../style/mixin';
-	
+
 	.safe_shop{
 		position: fixed;
 		top: 0;
@@ -200,5 +200,5 @@
             }
         }
     }
-    
+
 </style>

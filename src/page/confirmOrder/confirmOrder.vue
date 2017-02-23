@@ -120,7 +120,7 @@
         <alert-tip v-if="showAlert" @closeTip="showAlert = false" :alertText="alertText"></alert-tip>
         <transition name="router-slid">
             <router-view></router-view>
-        </transition>    
+        </transition>
     </div>
 </template>
 
@@ -288,7 +288,7 @@
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
 
     .confirmOrderContainer{
@@ -431,7 +431,7 @@
         margin-top: .4rem;
         header{
             padding: .7rem;
-            border-bottom: 0.025rem solid #f5f5f5; 
+            border-bottom: 0.025rem solid #f5f5f5;
             img{
                 @include wh(1.2rem, 1.2rem);
                 vertical-align: middle;
@@ -462,7 +462,7 @@
             }
         }
         .total_price{
-            border-top: 0.025rem solid #f5f5f5; 
+            border-top: 0.025rem solid #f5f5f5;
         }
     }
     .confrim_order{

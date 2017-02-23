@@ -12,7 +12,7 @@
             <svg @click="addToCart(foods.category_id, foods.item_id, foods.specfoods[0].food_id, foods.specfoods[0].name, foods.specfoods[0].price, '', foods.specfoods[0].packing_fee, foods.specfoods[0].sku_id, foods.specfoods[0].stock, $event)">
                 <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#cart-add"></use>
             </svg>
-            <transition 
+            <transition
             appear
             @after-appear = 'afterEnter'
             @before-appear="beforeEnter"
@@ -179,7 +179,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
 	.cart_module{
         .cart_button{
@@ -339,6 +339,6 @@
         opacity: 0;
         transform: scale(.7);
     }
-    
+
 </style>
 

@@ -103,7 +103,7 @@
             //获取验证码图片
             async getCaptchaCode(){
                 let res = await getcaptchas();
-                
+
                 this.captchaCodeImg = 'https://mainsite-restapi.ele.me/v1/captchas/' + res.code;
             },
             //获取手机验证码
@@ -179,19 +179,19 @@
                     //登陆成功保存用户信息，返回上一路游
                     this.RECORD_USERINFO(this.userInfo);
                     this.$router.go(-1);
-                    
+
                 }
             },
             //关闭弹出框
             closeTip(){
                 this.showAlert = false;
-            }   
+            }
         }
     }
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../style/mixin';
 
     .loginContainer{

@@ -109,16 +109,16 @@
                 }
                 //订单成功，保存信息
                 this.ORDER_SUCCESS(orderRes);
-                //进入付款页面 
+                //进入付款页面
                 this.$router.push('/confirmOrder/payment');
             },
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../style/mixin';
-  
+
     .validation_page{
         position: fixed;
         top: 0;

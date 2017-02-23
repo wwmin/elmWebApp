@@ -19,7 +19,7 @@
                             </svg>
                             <span>女士</span>
                         </span>
-                    </div>    
+                    </div>
                 </section>
             </section>
             <section class="section_list">
@@ -35,7 +35,7 @@
             <section class="section_list">
                 <span class="section_left">送餐地址</span>
                 <section class="section_right">
-                    <router-link to="/confirmOrder/chooseAddress/addAddress/searchAddress" tag="div" class="choose_address">{{searchAddress? searchAddress.name : '小区/写字楼/学校等'}}</router-link> 
+                    <router-link to="/confirmOrder/chooseAddress/addAddress/searchAddress" tag="div" class="choose_address">{{searchAddress? searchAddress.name : '小区/写字楼/学校等'}}</router-link>
                     <input type="text" name="address_detail" placeholder="详细地址（如门牌号等）" v-model="address_detail" class="input_style">
 
                 </section>
@@ -51,7 +51,7 @@
          <alert-tip v-if="showAlert" @closeTip="showAlert = false" :alertText="alertText"></alert-tip>
         <transition name="router-slid">
             <router-view></router-view>
-        </transition>  
+        </transition>
     </div>
 </template>
 
@@ -77,7 +77,7 @@
             }
         },
         created(){
-            
+
         },
         components: {
             headTop,
@@ -85,12 +85,12 @@
         },
         computed: {
             ...mapState([
-                'searchAddress', 'geohash', 'userInfo', 
+                'searchAddress', 'geohash', 'userInfo',
             ]),
         },
         methods: {
             ...mapMutations([
-                
+
             ]),
             //选择性别
             chooseSex(sex){
@@ -128,10 +128,10 @@
         }
     }
 </script>
-  
-<style lang="scss" scoped>
+
+<style lang="scss" rel="stylesheet/scss" scoped>
     @import '../../../../style/mixin';
-  
+
     .address_page{
         position: fixed;
         top: 0;
